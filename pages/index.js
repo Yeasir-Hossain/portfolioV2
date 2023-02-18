@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Navbar from './Navbar'
-// import Particle from './components/particle'
+import Particle from './components/Particle'
+
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Particle></Particle> */}
+        <Particle></Particle>
         <h1>hello home</h1>
       </main>
     </>
