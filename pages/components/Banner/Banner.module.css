@@ -1,0 +1,93 @@
+.textcolor {
+    animation: Color 5s linear infinite;
+}
+
+@keyframes Color {
+    0% {
+        color: #a100af;
+    }
+
+    10% {
+        color: rgb(161, 0, 175);
+    }
+
+    20% {
+        color: rgb(161, 0, 175);
+    }
+
+    30% {
+        color: #005897;
+    }
+
+    40% {
+        color: #005897;
+    }
+
+    50% {
+        color: #005897;
+    }
+
+    60% {
+        color: #005897;
+    }
+
+
+    80% {
+        color: rgb(161, 0, 175);
+    }
+
+    90% {
+        color: rgb(161, 0, 175);
+    }
+
+    100% {
+        color: rgb(161, 0, 175);
+    }
+}
+
+.button {
+    animation: buttoncolor 5s linear infinite;
+}
+
+@keyframes buttoncolor {
+    0% {
+        background-color: #a100af;
+    }
+
+    10% {
+        background-color: rgb(161, 0, 175);
+    }
+
+    20% {
+        background-color: rgb(161, 0, 175);
+    }
+
+    30% {
+        background-color: #005897;
+    }
+
+    40% {
+        background-color: #005897;
+    }
+
+    50% {
+        background-color: #005897;
+    }
+
+    60% {
+        background-color: #005897;
+    }
+
+
+    80% {
+        background-color: rgb(161, 0, 175);
+    }
+
+    90% {
+        background-color: rgb(161, 0, 175);
+    }
+
+    100% {
+        background-color: rgb(161, 0, 175);
+    }
+}

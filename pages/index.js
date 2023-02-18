@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Particle from './components/Particle'
+import Banner from './components/Banner/Banner'
+import Skills from './components/Skills/Skills'
 
 
 export default function Home() {
@@ -12,8 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div className='max-w-[88rem] mx-auto px-2'>
+          <Banner></Banner>
+          <Skills></Skills>
+        </div>
         <Particle></Particle>
-        <h1>hello home</h1>
       </main>
     </>
   )
