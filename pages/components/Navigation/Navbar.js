@@ -65,22 +65,25 @@ const Navbar = () => {
                                 }
 
                             </button>
-                            <button type="button" className="text-white bg-blue-700 hidden md:block hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Resume</button>
+                            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 hidden md:block  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-purple-700 dark:hover:bg-purple-800">Resume</button>
                             {rendertheme()}
                         </div>
                         <div className={`items-center justify-between hidden w-full md:flex md:w-auto md:order-1`}>
                             <ul className={`flex flex-col p-4 border-0 md:flex-row md:space-x-8 md:mt-0 text-sm md:text-base md:font-medium ${style.links}`}>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Me</a>
+                                    <a href="#about" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Me</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">My skills</a>
+                                    <a href="#skills" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Skills</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                                    <a href="#experience" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Experience</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Contact</a>
+                                    <a href="#projects" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Contact</a>
                                 </li>
                                 <li>
                                     <a href="#">

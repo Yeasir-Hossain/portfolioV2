@@ -2,6 +2,7 @@ import React from 'react';
 import me from '../../../public/mypic.png'
 import Image from 'next/image';
 import style from './Banner.module.css'
+import TypewriterComponent from 'typewriter-effect';
 const Banner = () => {
     // bg-[url('/cool-background.svg')] 
     return (
@@ -17,10 +18,22 @@ const Banner = () => {
                             />
                         </div>
                     </div>
-                    <div className='w-full text-center sm:text-justify font-medium'>
+                    <div className='w-full text-center sm:text-justify font-medium mt-3'>
                         <div>
                             <h2 className='text-4xl sm:text-6xl font-bold mb-4 text-white bg-blue-800 dark:bg-purple-800 p-1 rounded-lg inline-block'>I'm a</h2>
-                            <h2 className='text-4xl sm:text-6xl font-bold mb-4'><span className={style.textcolor}>FULLSTACK</span> <span>DEVELOPER</span></h2>
+                            <h2 className='text-4xl sm:text-6xl font-bold mb-4 flex gap-2'><span className={style.textcolor}>FULLSTACK</span>
+                                <span>
+                                    <TypewriterComponent
+                                        options={{
+                                            strings: ['DEVELOPER'],
+                                            autoStart: true,
+                                            pauseFor: 5000,
+                                            loop: true,
+                                            cursor: ""
+                                        }}
+                                    />
+                                </span>
+                            </h2>
                             <h2 className='text-xl md:text-2xl'>Punctual, self-taught, persistent, genuine, patient, consistent, fearless</h2>
                             <h2 className='md:text-xl'>I like to communicate with people. I can adapt myself to any environment. I can work under pressure.</h2>
                             <h2 className='md:text-xl'>"People don't care about what we say, they care about what we build".<br /> So I am always energetic to create something extraordinary.</h2>

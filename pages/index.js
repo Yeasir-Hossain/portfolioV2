@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import Footer from './components/Footer/Footer'
+import Social from './components/Social/Social'
 
 
 export default function Home() {
@@ -18,12 +19,12 @@ export default function Home() {
       </Head>
       <main>
         <div className='max-w-[88rem] mx-auto px-2'>
-          <Banner></Banner>
+          <Banner />
+          <Skills />
+          <Experience />
         </div>
         {/* <Projects></Projects> */}
-        <div className='max-w-[88rem] mx-auto px-2'>
-          <Experience></Experience>
-        </div>
+        <Social />
         <Footer />
         <Particle />
       </main>

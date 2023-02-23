@@ -74,7 +74,7 @@ const Projects = () => {
         },
     ]
     return (
-        <div>
+        <div id='projects'>
             <SectionHeading heading={"Projects"} />
             <HorizontalGallery projects={projects}></HorizontalGallery>
         </div>

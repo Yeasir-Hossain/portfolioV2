@@ -13,7 +13,6 @@ const Experience = () => {
                 <p>2. Worked in a team building full stack projects</p>
                 <p>3. Single-handedly built a few websites</p>
             </div>
-
         </div>
     );
 };
