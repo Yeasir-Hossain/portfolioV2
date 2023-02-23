@@ -1,7 +1,10 @@
 import Head from 'next/head'
-import Particle from './components/Particle'
+import Particle from './components/Shared/Particle'
 import Banner from './components/Banner/Banner'
 import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import Experience from './components/Experience/Experience'
+import Footer from './components/Footer/Footer'
 
 
 export default function Home() {
@@ -16,9 +19,13 @@ export default function Home() {
       <main>
         <div className='max-w-[88rem] mx-auto px-2'>
           <Banner></Banner>
-          <Skills></Skills>
         </div>
-        <Particle></Particle>
+        {/* <Projects></Projects> */}
+        <div className='max-w-[88rem] mx-auto px-2'>
+          <Experience></Experience>
+        </div>
+        <Footer />
+        <Particle />
       </main>
     </>
   )

@@ -3,11 +3,31 @@
 @tailwind utilities;
 
 
-.background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
+body {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+.swiper {
+  width: 70vw;
+  height: 30vw;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media (max-width: 480px) {
+  .swiper {
+    /* margin-left: 5% !important; */
+    width: 80vw;
   }
+}

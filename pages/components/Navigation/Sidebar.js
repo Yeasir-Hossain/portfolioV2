@@ -7,13 +7,13 @@ const Sidebar = ({ dropdown, drop }) => {
             }`}>
             <ul className="flex flex-col pl-2 pr-10 border-0 text-base font-medium mt-12">
                 <li onClick={dropdown}>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Me</a>
                 </li>
                 <li onClick={dropdown}>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">About</a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">My skills</a>
                 </li>
                 <li onClick={dropdown}>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
                 </li>
                 <li onClick={dropdown}>
                     <a href="#" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Contact</a>

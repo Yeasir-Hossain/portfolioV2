@@ -52,7 +52,7 @@ const Navbar = () => {
     return (
         <>
             <nav>
-                <div className="bg-transparent mt-2 md:mt-0 sticky top-0 z-50">
+                <div className="bg-transparent mt-2 md:mt-0 fixed w-full top-0 left-0 z-50">
                     <div className="container flex flex-wrap items-center justify-between mx-auto max-w-[90rem]">
                         <div className="flex justify-between w-full md:w-auto md:order-2">
                             <button onClick={dropdown} data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none dark:text-gray-400 " aria-controls="navbar-cta" aria-expanded="false">
@@ -71,13 +71,13 @@ const Navbar = () => {
                         <div className={`items-center justify-between hidden w-full md:flex md:w-auto md:order-1`}>
                             <ul className={`flex flex-col p-4 border-0 md:flex-row md:space-x-8 md:mt-0 text-sm md:text-base md:font-medium ${style.links}`}>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Me</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">About</a>
+                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">My skills</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
                                 </li>
                                 <li>
                                     <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 transition duration-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Contact</a>
