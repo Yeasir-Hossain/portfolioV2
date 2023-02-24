@@ -47,7 +47,7 @@ function HorizontalGallery({ projects }) {
           className=" flex overflow-x-hidden w-[400vw] m-0 relative h-auto text-black dark:text-white"
         >
           {
-            projects.map((project, index) =>
+            projects?.map((project, index) =>
               <>
                 <section
                   ref={skills}
