@@ -15,7 +15,7 @@ const Swipper = ({ images }) => {
                 className="mySwiper"
             >
                 {
-                    images.map((image, index) => <SwiperSlide
+                    images?.map((image, index) => <SwiperSlide
                         key={index}
                     >
                         <Image
