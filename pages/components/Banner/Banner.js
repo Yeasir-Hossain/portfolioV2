@@ -21,7 +21,7 @@ const Banner = () => {
                     <div className='w-full text-center sm:text-justify font-medium mt-3'>
                         <div>
                             <h2 className='text-4xl sm:text-6xl font-bold mb-4 text-white bg-blue-800 dark:bg-purple-800 p-1 rounded-lg inline-block'>I'm a</h2>
-                            <h2 className='text-4xl sm:text-6xl font-bold mb-4 flex gap-2'><span className={style.textcolor}>FULLSTACK</span>
+                            <h2 className='text-4xl sm:text-6xl font-bold mb-4 flex flex-col sm:flex-row gap-2'><span className={style.textcolor}>FULLSTACK</span>
                                 <span>
                                     <TypewriterComponent
                                         options={{

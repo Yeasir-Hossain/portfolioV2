@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <div id='skills'>
             <SectionHeading heading={"Skills"} />
-            <div className='flex flex-wrap text-[85px] justify-evenly items-center my-6'>
+            <div className='flex flex-wrap gap-2 text-6xl md:text-[85px] justify-evenly items-center my-6'>
                 <div>
                     <AiFillHtml5 />
                 </div>
