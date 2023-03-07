@@ -65,7 +65,7 @@ const Navbar = () => {
                                 }
 
                             </button>
-                            <a href="https://drive.google.com/file/d/1gkWURnPqCspFmpbjdpcsWcCZSDhnpWag/view?usp=share_link" target="_blank" rel="noreferrer">
+                            <a href="https://drive.google.com/file/d/1oyQYOXXJL3GhT_ASKztPD_enlkHo4HAv/view?usp=share_link" target="_blank" rel="noreferrer">
                                 <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 hidden md:block  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-purple-700 dark:hover:bg-purple-800">Resume</button>
                             </a>
                             {rendertheme()}
