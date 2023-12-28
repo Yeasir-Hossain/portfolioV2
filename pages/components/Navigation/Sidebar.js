@@ -15,12 +15,12 @@ const Sidebar = ({ dropdown, drop }) => {
                 <li onClick={dropdown}>
                     <a href="#projects" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
                 </li>
-                <li onClick={dropdown}>
+                {/* <li onClick={dropdown}>
                     <a href="#contact" className="block py-2 pl-3 pr-4 text-gray-100 rounded hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">Contact</a>
-                </li>
+                </li> */}
             </ul>
             <a href="#">
-                <button onClick={dropdown} type="button" className="text-white w-full bg-blue-700 block hover:bg-blue-800 font-medium text-sm px-5 py-2.5 mt-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Resume</button>
+                <button onClick={dropdown} type="button" className="text-white w-full bg-blue-700 block hover:bg-blue-800 font-medium text-sm px-5 py-2.5 mt-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-500">Resume</button>
             </a>
         </div>
     );

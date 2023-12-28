@@ -15,7 +15,7 @@ function Particle() {
             setParticlecolor("f1f1f1")
         }
         else {
-            setParticlecolor("000000")
+            setParticlecolor("F9F6EE")
         }
     };
 
@@ -37,6 +37,7 @@ function Particle() {
                     },
                     particles: {
                         color: {
+                            animation: 'linear',
                             value: particlecolor
                         },
                         number: {

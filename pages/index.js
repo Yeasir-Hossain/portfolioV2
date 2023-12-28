@@ -4,7 +4,6 @@ import Banner from './components/Banner/Banner'
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
-import Footer from './components/Footer/Footer'
 import Social from './components/Social/Social'
 
 
@@ -25,7 +24,6 @@ export default function Home() {
         </div>
         <Projects></Projects>
         <Social />
-        <Footer />
         <Particle />
       </main>
     </>

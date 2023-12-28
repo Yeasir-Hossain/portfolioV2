@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap');
 
 
 body {
@@ -8,12 +9,15 @@ body {
   /* Internet Explorer 10+ */
   scrollbar-width: none;
   /* Firefox */
+  font-family: 'Inter', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body::-webkit-scrollbar {
   display: none;
   /* Safari and Chrome */
 }
+
 .swiper {
   width: 70vw;
   height: 30vw;
@@ -25,6 +29,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   border-radius: 10px;
 }
+
 @media (max-width: 480px) {
   .swiper {
     /* margin-left: 5% !important; */

@@ -1,6 +1,5 @@
 import React from 'react';
 import HorizontalGallery from './HorizontalGallery';
-import Image from 'next/image';
 import SectionHeading from '../Shared/SectionHeading';
 
 const Projects = () => {
@@ -74,7 +73,7 @@ const Projects = () => {
         },
     ]
     return (
-        <div id='projects'>
+        <div id='projects' className='py-20'>
             <SectionHeading heading={"Projects"} />
             <HorizontalGallery projects={projects}></HorizontalGallery>
         </div>
