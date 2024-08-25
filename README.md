@@ -1,12 +1,12 @@
 # Welcome to the Magical Kingdom of Yeasir Hossain ✨
 
-Greetings, curious wanderer! 👋 I'm Yeasir Hossain, your friendly neighborhood MERN Stack Developer and chief wizard behind the pixels. Prepare to embark on a whimsical journey through the enchanted land of my coding adventures!
+Greetings, curious wanderer! 👋 I'm Yeasir Hossain, your friendly neighborhood Developer and chief wizard behind the pixels. Prepare to embark on a whimsical journey through the enchanted land of my coding adventures!
 
 ## 🎇 Spells I Master
 
 - **Wingardium Levio-code-sa:** Lifting your web applications to new heights with React.js.
 - **Expelliarmus Bugsiosa:** Disarming bugs and glitches with the flick of my keyboard.
-- **Accio Database-io:** Summoning data from the mystical realms of MongoDB.
+- **Accio Database-io:** Summoning data from the mystical realms of Database.
 
 ## 🧙‍♂️ Incantation for Contact
 
